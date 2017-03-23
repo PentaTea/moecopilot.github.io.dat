@@ -1,0 +1,1372 @@
+/* ===================================
+	blackor - One Page Responsive Template
+====================================== */
+
+
+/* ===================================
+	PRELOADER
+====================================== */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/preloader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -70px 0 0 -70px;
+}
+
+
+/* ===================================
+	GENERAL
+====================================== */
+body {
+  position: relative;
+}
+
+html{
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+textarea:focus,
+input:focus{
+  outline: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+header.blackor-page-header{
+	-webkit-background-size: cover;
+	height: 330px;
+	background-size: cover;
+	position: relative;
+}
+
+.blackor-page-title{
+	position: relative;
+	z-index: 1;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+
+/* ===================================
+	BACKGROUND COLOR
+====================================== */
+.background-one {
+	background-color: #1F1F1F;
+}
+
+.background-two {
+	background-color: #2f2f2f;
+}
+
+/* ===================================
+	TYPOGRAPHY
+====================================== */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+h1{
+	font-size: 36px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+h5{
+	font-size: 16px;
+}
+
+h5{
+	font-size: 14px;
+}
+
+a,p,li,input,textarea{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #818181;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+a{
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+	    -ms-transition: all .3s;
+	     -o-transition: all .3s;
+	        transition: all .3s;
+}
+
+a:hover,
+a:focus,
+a:active{
+	outline: 0;
+	text-decoration: none;
+  	border: 0;
+}
+
+.blackor-page-title h1{
+	font-size: 36px;
+	font-weight: 700;
+	color: #ffffff;
+	margin: 0;
+	padding: 70px 0 0;
+	text-align: center;
+}
+
+
+/* ===================================
+	BUTTONS
+====================================== */
+.blackor-button-solid{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	padding: 15px 30px;
+	display: inline-block;
+	-webkit-transition: all .35s;
+	   -moz-transition: all .35s;
+	    -ms-transition: all .35s;
+	     -o-transition: all .35s;
+	        transition: all .35s;
+}
+
+.blackor-button-solid:hover{
+	color: #ffffff;
+	background-color: #de5c39;
+}
+
+.blackor-button-outline{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	padding: 15px 30px;
+	display: inline-block;
+	background-color: transparent;
+	-webkit-transition: all .35s;
+	   -moz-transition: all .35s;
+	    -ms-transition: all .35s;
+	     -o-transition: all .35s;
+	        transition: all .35s;
+}
+
+.blackor-button-outline-light{
+	border: 1px solid #ffffff;
+}
+
+.blackor-button-outline-light:hover{
+	color: #ffffff;
+	border: 1px solid transparent;
+}
+
+.blackor-button-outline-dark{
+	color: #28292e;
+	border: 1px solid #28292e;
+}
+
+.blackor-button-outline-dark:hover{
+	color: #ffffff;
+	border: 1px solid transparent;
+}
+
+.blackor-btn-round{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 15px 30px;
+	color: #ffffff;
+	text-align: center;
+	display: inline-block;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+		 -o-border-radius: 5px;
+		 	border-radius: 5px;
+	-webkit-transition: all .35s;
+	   -moz-transition: all .35s;
+	    -ms-transition: all .35s;
+	     -o-transition: all .35s;
+	        transition: all .35s;
+}
+
+.blackor-btn-round:hover{
+	color: #ffffff;
+}
+
+
+/* ===================================
+	ICON
+====================================== */
+.blackor-blurb-icon-only{
+	margin-bottom: 50px;
+	text-align: center;
+	border: 2px solid #666;
+	padding: 20px;
+	border-bottom: none;
+}
+.blackor-blurb-icon-only:hover {
+	background: linear-gradient(#666,transparent);
+}
+.blackor-blurb-icon-only i{
+	font-size: 30px;
+	border: 4px solid #eee;
+	padding: 30px;
+}
+.blackor-blurb-icon-only i:hover{
+	background-color: #fff;
+}
+.blackor-blurb-icon-only h3{
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.blackor-blurb-icon-only p{
+	margin-bottom: 0;
+}
+
+
+.blackor-blurb-round-icon .blackor-icon{
+	width: 100px;
+	height: 100px;
+	margin: 0px auto 30px;
+	text-align: center;
+	border: 4px solid #DADADA;
+	line-height: 0;
+	padding: 8px;
+}
+
+.blackor-blurb-round-icon .blackor-icon i{
+	line-height: 70px;
+	font-size: 36px;
+	color: #dadada;
+}
+
+.blackor-blurb-round-icon .blackor-icon{
+	-webkit-transition: all .35s linear;
+	   -moz-transition: all .35s linear;
+	    -ms-transition: all .35s linear;
+	     -o-transition: all .35s linear;
+	        transition: all .35s linear;
+}
+
+.blackor-blurb-round-icon:hover .blackor-icon{
+	border: 1px solid rgba(0,0,0,0);
+}
+
+.blackor-blurb-round-icon:hover .blackor-icon i{
+	color: #ffffff;
+}
+
+.blackor-blurb-round-icon h3{
+	text-align: center;
+	font-size: 18px;
+	color: #616161;
+	margin-top: 0;
+	margin-bottom: 15px;
+	-webkit-transition: all .3s linear;
+	   -moz-transition: all .3s linear;
+	    -ms-transition: all .3s linear;
+	     -o-transition: all .3s linear;
+	        transition: all .3s linear;
+}
+
+.blackor-blurb-round-icon p{
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.blackor-icones{
+	overflow: hidden;
+	padding: 20px;
+}
+
+.blackor-icones:last-child{
+	border-bottom: none;
+}
+
+.blackor-icones .blackor-icon{
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 1px solid #dadada;
+}
+
+.blackor-icones.blackor-square-dark .blackor-icon{
+	background-color: rgba(0,0,0,0.25);
+}
+
+.blackor-icones .blackor-icon i{
+	line-height: 70px;
+	font-size: 36px;
+}
+
+.blackor-icones .blackor-blurb-text{
+	float: left;
+	width: 260px;
+}
+
+.blackor-icones .blackor-blurb-text h3{
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	-webkit-transition: all .3s linear;
+	   -moz-transition: all .3s linear;
+	    -ms-transition: all .3s linear;
+	     -o-transition: all .3s linear;
+	        transition: all .3s linear;
+}
+
+.blackor-icones .blackor-blurb-text h3:after{
+	content: '';
+	width: 30px;
+	height: 2px;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	-webkit-transition: all .3s linear;
+	   -moz-transition: all .3s linear;
+	    -ms-transition: all .3s linear;
+	     -o-transition: all .3s linear;
+	        transition: all .3s linear;
+}
+
+.blackor-line{
+	width: 20px;
+	height: 20px;
+	margin: 20px auto;
+}
+
+
+/* ===================================
+	SECTIONS
+====================================== */
+.blackor-section-wrapper{
+	padding: 80px 0;
+	overflow: hidden;
+}
+
+.blackor-section-header{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.blackor-section-header h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #313131;
+}
+
+.blackor-section-header h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #313131;
+}
+
+.blackor-section-header h1 span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blackor-section-header p{
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Parallax Section*/
+.blackor-parallax-overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.blackor-section-header-parallax h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blackor-section-header-parallax h1 span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.blackor-section-header-parallax p{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* ===================================
+	MENUS
+====================================== */
+.blackor-main-menu{
+    background-color: #28292e;
+    background-color: transparent;
+    border: 0 none;
+    border-radius: 0;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 0;
+    z-index: 10;
+    -webkit-transition: all .35s;
+       -moz-transition: all .35s;
+        -ms-transition: all .35s;
+         -o-transition: all .35s;
+            transition: all .35s;
+}
+
+header.blackor-page-header .blackor-main-menu{
+	position: relative;
+}
+
+.blackor-main-menu .navbar-brand{
+    padding: 30px 0;
+}
+
+.blackor-main-menu .navbar-nav{
+    float: right;
+    padding: 30px 0;
+}
+
+.blackor-main-menu .navbar-nav li a{
+	color: #777;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 30px !important;
+    -webkit-transition: all .3s;
+       -moz-transition: all .3s;
+        -ms-transition: all .3s;
+         -o-transition: all .3s;
+            transition: all .3s;
+    border: 2px solid #ddd;
+    border-radius: 40px;
+    margin: 0 3px;
+}
+
+.blackor-main-menu .navbar-nav li a:hover,
+.blackor-main-menu .navbar-nav li.active a{
+    background-color: transparent;
+}
+
+.blackor-main-menu .navbar-nav li a:focus{
+	background-color: transparent;
+}
+
+/* Minified Menu */
+.blackor-main-menu.minified{
+	background-color: #333;
+	padding: 0;
+	position: fixed;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0), 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+header.blackor-page-header .blackor-main-menu.minified{
+	position: fixed;
+}
+
+
+/* ===================================
+	SLIDERS
+====================================== */
+.blackor-slider{
+	overflow: hidden;
+	background-color: #28292e;
+}
+
+.blackor-main-slides .blackor-img-overlay{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+	background-image: url(../images/mask.png);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.blackor-main-slides h1.blackor-slider-text-big{
+	font-size: 48px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-top: 20px;
+	background-color: #444;
+
+}
+
+.blackor-main-slides .blackor-slider-text h1 span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.blackor-main-slides p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 30px !important;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+.sp-arrow {
+	width: 10px;
+	height: 0px !important;
+}
+
+.blackor-slider .sp-buttons {
+  padding-top: 10px;
+  position: absolute;
+  text-align: center;
+  bottom: 20px;
+}
+
+.blackor-slider .sp-button {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  height: 14px;
+  margin: 4px;
+  width: 14px;
+  display: none;
+}
+
+
+/* ===================================
+	FEATURES
+====================================== */
+.blackor-features-section .container{
+	position: relative;
+	z-index: 1;
+}
+.features-details {
+	padding: 0 !important;
+}
+.blackor-features-section{
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 80px;
+	overflow: hidden;
+}
+
+
+
+/* ===================================
+	FEATURED WORK
+====================================== */
+.blackor-portfolio-work-item{
+	height: 280px;
+	position: relative;
+}
+
+.blackor-portfolio-work-item img{
+	height: 100%;
+}
+
+.blackor-portfolio-work-item .blackor-port-work-details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.blackor-portfolio-work-item .blackor-work-meta{
+	position: absolute;
+	right: 0;
+	padding-right: 38%;
+	padding-top: 30%;
+}
+
+.blackor-portfolio-work-item .blackor-work-meta li{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 1px;
+	text-align: center;
+	opacity: 0;
+	transform: scale(0);
+	transition: all 0.4s ease 0s;
+}
+
+.blackor-portfolio-work-item:hover .blackor-port-work-details .blackor-work-meta li{
+	opacity: 1;
+	-webkit-transform: scale(1);
+	   -moz-transform: scale(1);
+	    -ms-transform: scale(1);
+	     -o-transform: scale(1);
+	        transform: scale(1);
+}
+
+.blackor-port-work-details .blackor-work-meta li a{
+	display: block;
+}
+
+.blackor-port-work-details .blackor-work-meta li a i{
+	font-size: 30px;
+	color: #FFF;
+	line-height: 75px;
+}
+
+.blackor-port-work-details .blackor-port-work-desc{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 15px 0;
+	background-color: rgba(40,41,46,0.8);
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	   -moz-transform: translateY(100%);
+	    -ms-transform: translateY(100%);
+	     -o-transform: translateY(100%);
+	        transform: translateY(100%);
+	-webkit-transition: all .5s;
+	   -moz-transition: all .5s;
+	    -ms-transition: all .5s;
+	     -o-transition: all .5s;
+	        transition: all .5s;
+
+}
+
+.blackor-portfolio-work-item:hover .blackor-port-work-desc{
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	   -moz-transform: translateY(0);
+	    -ms-transform: translateY(0);
+	     -o-transform: translateY(0);
+	        transform: translateY(0);
+}
+
+.blackor-port-work-details .blackor-port-work-desc h3{
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.blackor-port-work-details .blackor-port-work-desc p a{
+	font-size: 14px;
+	color: #ffffff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.blackor-port-work-details .blackor-port-work-desc .blackor-like-btn {
+	text-align: center;
+	padding: 10px 15px;
+}
+
+.blackor-port-work-details .blackor-port-work-desc .blackor-like-btn a{
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.blackor-port-work-details .blackor-port-work-desc .blackor-like-btn a i{
+	font-size: 21px;
+	color: #ffffff;
+	margin-right: 5px;
+}
+
+
+
+/* ===================================
+	OFFERS
+====================================== */
+.blackor-offer-section{
+	padding-bottom: 30px;
+}
+
+
+
+
+/* ===================================
+	CUSTOM SECTION
+====================================== */
+.blackor-custom-sec-text p{
+	margin-bottom: 20px;
+}
+
+.blackor-custom-sec-text h3{
+	font-size: 18px;
+	color: #616161;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.blackor-custom-sec-text ul{
+	margin-left: 30px;
+}
+
+.blackor-custom-sec-text ul li{
+	margin-bottom: 10px;
+}
+
+.blackor-custom-sec-text ul li:last-child{
+	margin-bottom: 0;
+}
+
+.blackor-custom-sec-text ul li i{
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+
+
+/* ===================================
+	TESTIMONIALS
+====================================== */
+.blackor-testimonial-section{
+	position: relative;
+	padding: 80px 0;
+	overflow: hidden;	
+}
+
+.blackor-member-img-wrapper img {
+	margin-bottom: 20px;
+}
+
+.blackor-testimonial-wrapper{
+	text-align: center;
+	position: relative;
+	z-index: 5;
+}
+
+.blackor-testimonial-wrapper .comment-icon{
+	font-size: 24px;
+	text-align: center;
+}
+
+.blackor-testimonial{
+	overflow: hidden;
+}
+
+.blackor-testimonial p{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.blackor-testimonial p.blackor-client-info{
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 0
+}
+
+
+
+/* ===================================
+	PRICING
+====================================== */
+.blackor-pricing-section{
+	padding: 80px 0;
+}
+
+.blackor-pricing-plans{
+	text-align: center;
+	padding: 30px 0;
+}
+
+.blackor-recommended-pricing{
+}
+
+.recommended-titles {
+	padding: 15px 0;
+}
+
+.recommended-titles h2 {
+	color: #ffffff !important;
+}
+
+.blackor-pricing-plans .recommended-titles p{
+	color: #ffffff !important;
+}
+
+.blackor-pricing-plans .recommended-titles p span{
+	color: #ffffff !important;
+}
+
+.blackor-pricing-plans .blackor-pricing-titles{
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.blackor-pricing-plans .blackor-pricing-titles h2{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.blackor-pricing-plans .blackor-pricing-titles p{
+	font-size: 16px;
+}
+
+.blackor-pricing-plans .blackor-pricing-titles p span{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.blackor-pricing-plans .blackor-pricing-service-name{
+	margin-bottom: 20px;
+}
+
+.blackor-pricing-plans ul li{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.blackor-pricing-plans ul li:last-child{
+	border-bottom: 0px solid;
+}
+.blackor-pricing-plans a.blackor-signup-btn{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 15px 30px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 60px;
+}
+
+.blackor-pricing-plans a.blackor-signup-btn:hover{
+	color: #ffffff;
+}
+
+
+
+/* ===================================
+	CONTACT
+====================================== */
+#contact-form {
+	margin: 0 15%;
+}
+
+.blackor-contact-section{
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	padding: 80px 0;
+	overflow: hidden;
+}
+
+.blackor-contact-section .blackor-contact-address p{
+	color: #ffffff;
+}
+
+.blackor-contact-section .blackor-contact-address ul li{
+	margin-bottom: 25px;
+	font-size: 14px;
+	position: relative;
+	padding: 15px;
+}
+
+.blackor-contact-section .blackor-contact-address ul li:last-child{
+	margin-bottom: 0;
+}
+
+.blackor-contact-section .blackor-contact-address ul li i{
+	font-size: 50px;
+	line-height: 55px;
+	color: #ffffff;
+}
+
+.blackor-contact-section .blackor-contact-form .blackor-input-fields{
+	margin-bottom: 20px;
+}
+
+.blackor-contact-section .blackor-contact-form .blackor-input-fields label{
+	display: block;
+	font-size: 14px;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.blackor-contact-section .blackor-contact-form .blackor-input-fields input{
+	width: 100%;
+	height: 40px;
+	background-color: transparent;
+	border: 1px solid #999999;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.blackor-contact-section .blackor-contact-form .blackor-input-fields textarea{
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid #999999;
+	padding: 15px;
+}
+
+.blackor-contact-section .blackor-contact-form input[type='submit']{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 15px 30px;
+	text-align: center;
+	display: inline-block;
+	outline: 0;
+	border: 0px solid;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+		 -o-border-radius: 5px;
+		 	border-radius: 5px;
+	-webkit-transition: all .35s;
+	   -moz-transition: all .35s;
+	    -ms-transition: all .35s;
+	     -o-transition: all .35s;
+	        transition: all .35s;
+	width: 100%;
+}
+
+.blackor-contact-section .blackor-contact-form .blackor-input-fields input[type='submit']:hover{
+	color: #ffffff;
+	background-color: #de5c39;
+}
+::-webkit-input-placeholder {
+   color: #eee;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #eee;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #eee;  
+}
+
+:-ms-input-placeholder {  
+   color: #eee;  
+}
+
+/* ===================================
+	OWL PAGINATIONS
+====================================== */
+.owl-theme .owl-controls {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background-color: transparent;
+  border-radius: 0px;
+  display: block;
+  height: 10px;
+  margin: 5px 5px;
+  opacity: 1;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+  border: 1px solid rgba(0,0,0,0);
+
+}
+
+
+/* ===================================
+	FOOTER
+====================================== */
+footer{
+	background-color: #28292e;
+	padding: 15px;
+	overflow: hidden;
+}
+
+footer .blackor-footer-content{
+	text-align: center;
+}
+
+footer .blackor-footer-logo{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+footer p{
+	text-align: center;
+	color: #818181;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+footer ul {
+	display: inline-block;
+}
+
+footer ul li{
+	float: left;
+	margin-right: 15px;
+	padding: 8px 10px;
+	width: 50px;
+}
+
+footer ul li:last-child{
+	margin-right: 0;
+}
+
+footer ul li a{
+	font-size: 21px;
+}
+
+footer ul li a i{
+	font-size: 21px;
+	color: #818181;
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+	    -ms-transition: all .3s;
+	     -o-transition: all .3s;
+	        transition: all .3s;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .blackor-main-menu.minified {
+      background-color: #28292e;
+      padding: 20px 0 0;
+      position: fixed;
+  }
+
+  .navbar-header {
+      float: none;
+      text-align: center;
+  }
+
+  .navbar-brand {
+      float: none;
+      font-size: 18px;
+      line-height: 20px;
+      padding: 15px;
+  }
+
+  .navbar-collapse {
+  	  text-align: center;
+  }
+
+  .blackor-main-menu .navbar-nav {
+      display: inline-block;
+      float: none;
+  }
+
+  .navbar-nav > li {
+      display: inline-block;
+      float: none;
+      margin-bottom: 5px;
+  }
+
+  .blackor-team-slides .blackor-member-img-wrapper{
+      width: 35%;
+      margin-right: 5%;
+  }
+
+  .blackor-member-details {
+      display: inline-block;
+      float: left;
+      width: 60%;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blackor-main-menu.minified {
+      padding: 20px 0 0;
+      position: fixed;
+  }
+
+  .navbar-header {
+      float: none;
+      text-align: center;
+  }
+
+  .navbar-brand {
+      float: none;
+      font-size: 18px;
+      line-height: 20px;
+      padding: 15px;
+  }
+
+  .navbar-collapse {
+  	  text-align: center;
+  }
+
+  .blackor-main-menu .navbar-nav {
+      display: inline-block;
+      float: none;
+  }
+
+  .navbar-nav > li {
+      display: inline-block;
+      float: none;
+      margin-bottom: 5px;
+  }
+
+  .blackor-icones .blackor-icon {
+      height: 50px;
+      width: 50px;
+      margin-right: 20px;
+  }
+
+  .blackor-icones .blackor-blurb-text {
+      float: left;
+      width: 140px;
+  }
+
+  .blackor-icones .blackor-icon i {
+      font-size: 24px;
+      line-height: 50px;
+  }
+
+  .blackor-team-slides .blackor-member-img-wrapper{
+      width: 35%;
+      margin-right: 5%;
+  }
+
+  .blackor-member-details {
+      display: inline-block;
+      float: left;
+      width: 60%;
+  }
+
+  .blackor-portfolio-items .blackor-portfolio-item {
+      height: 280px;
+      overflow: hidden;
+      position: relative;
+      width: 33.33331%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .blackor-section-header {
+      margin-bottom: 60px;
+      text-align: center;
+  }
+
+  .navbar-toggle {
+      border: 1px solid #fff;
+      background-color: #818181;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .navbar-toggle .icon-bar {
+      border-radius: 1px;
+      display: block;
+      height: 2px;
+      width: 22px;
+      background-color: #fff;
+  }
+
+  .navbar-collapse {
+      border-top: 0px solid transparent;
+      box-shadow: 0 0px 0 rgba(255, 255, 255, 0) inset;
+      max-height: auto;
+  }
+
+  .blackor-main-menu .navbar-nav {
+      float: none;
+      padding: 10px 0;
+  }
+
+  .blackor-main-menu .navbar-nav li {
+      margin-bottom: 10px;
+  }
+
+  .blackor-main-menu .navbar-nav li:last-child{
+  	 margin-bottom: 0;
+  }
+
+  .blackor-blurb-icon-only {
+      margin-bottom: 50px;
+  }
+
+  .blackor-blurb-icon-only:last-child{
+  	 margin-bottom: 0;
+  }
+
+  .blackor-icones .blackor-blurb-text {
+      float: left;
+      width: 61%;
+  }
+
+  .blackor-blurb-round-icon {
+      margin-bottom: 50px;
+  }
+
+  .blackor-blurb-round-icon:last-child{
+      margin-bottom: 0;
+  }
+
+  .blackor-process-item {
+      text-align: center;
+      margin-bottom: 50px;
+  }
+
+  .blackor-process-item:last-child{
+  	  margin-bottom: 0;
+  }
+
+  .blackor-cta-1 h2 {
+      text-align: center;
+      margin-bottom: 30px;
+  }
+
+  .blackor-cta-1 p{
+    	text-align: center;
+    	margin-bottom: 20px;
+  }
+
+  .blackor-cta-1 .blackor-cta-btn{
+  	  text-align: center;
+  }
+
+  .blackor-cta-1 .blackor-cta-btn a{
+  	  float: none;
+  }
+
+  .blackor-main-slides h1.blackor-slider-text-big {
+      color: #ffffff;
+      font-size: 24px;
+      margin-bottom: 25px;
+      margin-top: 0;
+      text-transform: uppercase;
+      white-space: normal !important;
+      text-align: center;
+      width: 100% !important;
+  }
+
+  .blackor-main-slides p {
+      color: #ffffff;
+      font-family: "Raleway",sans-serif;
+      font-size: 18px !important;
+      font-weight: 400;
+      margin-bottom: 0;
+      white-space: normal !important;
+      text-align: center;
+      margin-top: 20px;
+      width: 100% !important;
+  }
+
+  .blackor-team-slides .blackor-member-img-wrapper {
+      float: none;
+      height: auto;
+      width: 100%;
+  }
+
+  .blackor-member-details {
+      float: none;
+      width: 100%;
+      text-align: center;
+  }
+
+  .blackor-member-details ul {
+  	  display: inline-block; 
+  }
+
+  .blackor-counter-item {
+      margin-bottom: 50px;
+  }
+
+  .blackor-counter-item:last-child{
+  	  margin-bottom: 0;
+  }
+
+  .blackor-portfolio-items .blackor-portfolio-item {
+      height: 280px;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+  }
+
+  .blackor-section-wrapper .blackor-custom-sec-img{
+      margin-bottom: 20px;
+  }
+
+  .blackor-contact-section .blackor-contact-address {
+      margin-bottom: 50px;
+  }
+
+}
+
+}
+

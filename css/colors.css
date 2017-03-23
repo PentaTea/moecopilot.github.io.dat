@@ -1,0 +1,235 @@
+
+/* ===================================
+	ORANGE COLORS
+====================================== */
+
+/* ===================================
+	BACKGROUND COLOR
+====================================== */
+.background-three {
+	background-color: #e65100;
+}
+
+/* ===================================
+	HIGHLIGHT
+====================================== */
+span.blackor-color-contras{
+	color: #e65100;
+}
+
+/* ===================================
+	SOLID BUTTON
+====================================== */
+.blackor-button-solid{
+	background-color: #e65100;
+}
+
+.blackor-button-solid:hover{
+	opacity: 0.7;
+}
+
+/* ===================================
+	OUTLINE BUTTON
+====================================== */
+.blackor-button-outline-light:hover{
+	background-color: #e65100
+}
+
+/* ===================================
+	DARK BUTTON
+====================================== */
+.blackor-button-outline-dark:hover{
+	background-color: #e65100;
+}
+
+/* ===================================
+	ROUND BTN
+====================================== */
+.blackor-btn-round{
+	background-color: #e65100;
+}
+
+.blackor-btn-round:hover{
+	opacity: 0.7;
+}
+
+/* ===================================
+	ICON
+====================================== */
+.blackor-blurb-icon-only i{
+	color: #e65100;
+}
+
+.blackor-blurb-icon-only h3{
+	color: #e65100
+}
+
+/* ===================================
+	ROUND ICON
+====================================== */
+.blackor-blurb-round-icon:hover .blackor-icon{
+	background-color: #e65100;
+}
+
+.blackor-icones .blackor-icon i {
+	color: #dadada;
+}
+
+.blackor-blurb-round-icon:hover h3{
+	color: #e65100;
+}
+
+/* ===================================
+	ICON SQUARE
+====================================== */
+.blackor-icones:hover .blackor-blurb-text h3{
+	color: #e65100;
+}
+
+.blackor-icones:hover .blackor-blurb-text h3:after{
+	background-color: #e65100;
+}
+
+.blackor-icones .blackor-blurb-text h3:after {
+	background-color: #e65100;
+}
+
+.blackor-icones .blackor-icon:hover {
+	background-color: #e65100;
+	border: none;
+	color: #fff;
+}
+
+.blackor-icones .blackor-icon:hover i{
+	background-color: #e65100;
+	border: none;
+	color: #fff;
+}
+
+.blackor-main-menu .navbar-nav li a:hover,
+.blackor-main-menu .navbar-nav li.active a{
+    color: #e65100;
+    border-color: #e65100;
+}
+
+.blackor-slider .sp-selected-button {
+  	background-color: #e65100;
+}
+
+.blackor-member-details h3{
+	color: #e65100;
+}
+
+.blackor-line{
+	background-color: #e65100;
+}
+
+.blackor-counter-item h3:after {
+	background-color: #fff;
+}
+
+/* ===================================
+	FEATURED WORK
+====================================== */
+.blackor-port-work-details .blackor-port-work-desc p a:hover{
+	color: #e65100;
+}
+
+.blackor-port-work-details .blackor-port-work-desc h3{
+	color: #e65100;
+}
+
+.blackor-recommended-pricing{
+	
+}
+
+.recommended-titles {
+	background-color: #e65100;
+}
+
+.blackor-icones{
+	overflow: hidden;
+	padding: 20px;
+	border-bottom: 1px dotted #e65100;
+}
+
+.blackor-icones-center{
+	border-left: 1px dotted #e65100;
+	border-right: 1px dotted #e65100;
+}
+.blackor-portfolio-work-item .blackor-work-meta li{
+	border: 4px solid #e65100;
+}
+/* ===================================
+	PORTFOLIO
+====================================== */
+.blackor-portfolio-filter-btn-group ul li a.selected{
+	color: #e65100;
+}
+
+.blackor-portfolio-filter-btn-group ul li a {
+	border-right: 1px dotted #e65100;
+}
+
+/* ===================================
+	PRICING
+====================================== */
+.blackor-pricing-plans .blackor-pricing-titles h2{
+	color: #e65100
+}
+
+.blackor-pricing-plans {
+	
+}
+
+.blackor-pricing-plans .blackor-pricing-titles p span{
+	color: #e65100;
+}
+
+/* ===================================
+	SIGN UP 
+====================================== */
+.blackor-pricing-plans a.blackor-signup-btn{
+	border: 2px solid #e65100;
+}
+
+.blackor-pricing-plans a.blackor-signup-btn:hover{
+	background-color: #e65100;
+}
+
+/* ===================================
+	CONTACT
+====================================== */
+.blackor-contact-section .blackor-contact-address ul li {
+	background-color: #e65100;
+}
+
+.blackor-contact-section .blackor-contact-form input[type='submit']{
+	background-color: #e65100;
+}
+
+.blackor-contact-section .blackor-contact-form input[type='submit']:hover{
+	opacity: 0.7;
+}
+
+.blackor-find-us-btn h3{
+	color: #e65100;
+}
+
+.blackor-portfolio-information .blackor-share-project ul li a:hover i{
+	color: #e65100;
+}
+
+/* ===================================
+	OWL CAROUSEL 
+====================================== */
+.owl-theme .owl-controls .owl-page span {
+	background-color: #e65100 !important;
+}
+
+/* ===================================
+	FOOTER
+====================================== */
+footer ul li a:hover i{
+	color: #e65100;
+}
