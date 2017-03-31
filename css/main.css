@@ -545,8 +545,9 @@ header.blackor-page-header .blackor-main-menu.minified{
 
 .blackor-main-slides .blackor-img-overlay{
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.8);
-	background-image: url(../images/mask.png);
+	background-color: rgba(0, 0, 0, 0.618);
+	<!-- background-image: url(../images/mask.png);--->
+	
 	width: 100%;
 	height: 100%;
 	top: 0;
