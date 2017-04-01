@@ -285,18 +285,19 @@
 	-webkit-box-sizing: border-box;
 	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-backface-visibility: hidden;
+	
 }
 
 .sp-black {
 	color: #FFF;
 	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .sp-white {
 	color: #000;
 	background: rgb(255, 255, 255);
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.7);
 }
 
 .sp-rounded {
@@ -737,11 +738,25 @@ a.sp-video:after {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.2);
 	margin: auto;
 	line-height: 52px;
 }
+.video {
+position: relative;
+padding-bottom: 100%;
+height: 0;
 
+}
+.video iframe,
+.video object,
+.video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 76%;
+}
 /* CSS for preventing styling issues in WordPress
 --------------------------------------------------*/
 .slider-pro img.sp-image,
@@ -821,4 +836,7 @@ a.sp-video:after {
 
 .slider-pro img.sp-layer {
 	border: none;
+}
+.bounceInLeft {
+	
 }
