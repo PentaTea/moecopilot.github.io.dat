@@ -290,13 +290,13 @@
 .sp-black {
 	color: #FFF;
 	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.3);
 }
 
 .sp-white {
 	color: #000;
 	background: rgb(255, 255, 255);
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.3);
 }
 
 .sp-rounded {
@@ -737,7 +737,7 @@ a.sp-video:after {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.3);
 	margin: auto;
 	line-height: 52px;
 }
