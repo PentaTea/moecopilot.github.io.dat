@@ -1,666 +1,813 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN" prefix="og: http://ogp.me/ns#">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset=utf-8 "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <!-- PAGE TITLE -->
-    <title>老司机的休憩之所</title>
+    <link rel="shortcut icon" href="http://zuiacg.com/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/icon/logo_57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/icon/logo_72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/icon/logo_114x114" />
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://zuiacg.com/xmlrpc.php">
+    <!--[if lt IE 9]>
+    <script src="js/html5.js" tppabs="http://zuiacg.cc/js/html5.js" ></script>
+    <script src="js/css3-mediaqueries.js" tppabs="http://zuiacg.cc/js/css3-mediaqueries.js" ></script>
+    <![endif]-->
 
-    <!-- ===================================
-        FAVICON ICON
-    ==================================== -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- ===================================
-        NORMALIZE CSS
-    ==================================== -->
-    <link rel="stylesheet" href="css/normalize.css">
-
-    <!-- ===================================
-        BOOTSTRAP
-    ==================================== -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- ===================================
-        GOOGLE FONTS
-    ==================================== -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:600,700,400,300' rel='stylesheet' type='text/css'>
-
-    <!-- ===================================
-        FONTS ICON
-    ==================================== -->
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
-
-    <!-- ===================================
-        PLUGIN
-    ==================================== -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/slider-pro.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/owl.transitions.css">
-    <link rel="stylesheet" href="css/animate.css">
-
-    <!-- ===================================
-        MAIN STYLESHEET
-    ==================================== -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/colors.css" id="colors" />
+    <title>最ACG网-ACG资源分享基地-http://zuiacg.com</title>
+    <meta name="description" content="最ACG网，一个专注于分享acg资源，图片，动画等二次元资源的网站。" />
+    <meta name="robots" content="noodp" />
+    <meta name="keywords" content="acg本子,acg资源,新番资源,二次元图片,音乐分享" />
+    <link rel="canonical" href="http://zuiacg.com/" />
+    <link rel="next" href="http://zuiacg.com/3/3-1" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="最ACG网-ACG资源分享基地-http://zuiacg.com" />
+    <meta property="og:description" content="最ACG网，一个专注于分享acg资源，图片，动画等二次元资源的网站。" />
+    <meta property="og:url" content="http://zuiacg.com/" />
+    <meta property="og:site_name" content="最ACG网" />
 
 
 
-        <!--[if lt IE 9]>
-        <script src="js/html5shiv.min.js"></script>
-        <script src="js/respond.min.js"></script>
-        <script type="text/javascript" src="js/selectivizr-min.js"></script>
-        <script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
-                <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
-        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-        <![endif]-->
+    <link rel='stylesheet' id='style-css' href="css/style.css" tppabs="http://zuiacg.cc/css/style.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='css-css' href="css/css.css" tppabs="http://zuiacg.cc/css/css.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='mycred-widget-css' href="css/widget.css" tppabs="http://zuiacg.cc/css/widget.css" type='text/css' media='all' />
+    <script type='text/javascript' src="js/jquery.min.js" tppabs="http://zuiacg.cc/js/jquery.min.js"></script>
+    <link href="css/tipso/tipso.min.css" tppabs="http://zuiacg.cc/css/tipso/tipso.min.css" rel="stylesheet" />
+    <script src="js/tipso/tipso.js" tppabs="http://zuiacg.cc/js/tipso/tipso.js"></script>
+
+    <script type='text/javascript' src="js/slides.js" tppabs="http://zuiacg.cc/js/slides.js"></script>
+    <script type='text/javascript' src="js/echo.min.js" tppabs="http://zuiacg.cc/js/echo.min.js"></script>
+    <script type='text/javascript' src="js/script.js" tppabs="http://zuiacg.cc/js/script.js"></script>
+
+
+    <script type='text/javascript' src="js/jquery.js" tppabs="http://zuiacg.cc/js/jquery.js"></script>
+
+    <script type='text/javascript' src="js/jquery-migrate.min.js" tppabs="http://zuiacg.cc/js/jquery-migrate.min.js"></script>
+    <link rel='stylesheet' id='wp-user-center-css' href="css/user-center.css" tppabs="http://zuiacg.cc/css/user-center.css" type='text/css' media='all' />
+    <link rel='stylesheet' href="css/mainpage.css" tppabs="http://zuiacg.cc/css/mainpage.css" type='text/css' media='all' />
+    <!--Swiper-->
+    <link href="css/swiper/swiper.min.css" tppabs="http://zuiacg.cc/css/swiper/swiper.min.css" rel="stylesheet" />
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "../hm.baidu.com/hm.js-fe9230508eb3527a924f80223991d1f3" /*tpa=https://hm.baidu.com/hm.js?fe9230508eb3527a924f80223991d1f3*/ ;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        (function() {
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = '../zz.bdstatic.com/linksubmit/push.js' /*tpa=https://zz.bdstatic.com/linksubmit/push.js*/ ;
+            } else {
+                bp.src = '../push.zhanzhang.baidu.com/push.js' /*tpa=http://push.zhanzhang.baidu.com/push.js*/ ;
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+
+
+
 </head>
 
-<body>
-    <!-- ===================================
-        PRELOADER
-    ==================================== -->
-    <div class="preloader">
-        <div class="status"></div>
+<body class="home blog custom-background">
+
+    <div id="page" class="hfeed site">
+
+
+
+
+        <header id="masthead" class="site-header">
+
+
+            <nav id="top-header">
+                <div class="top-nav">
+                    <div id="user-profile">
+                        <a href="account/register/index.htm" tppabs="http://zuiacg.cc/account/register/" target="_blank"><i class="fa fa-get-pocket"></i> 立即注册</a>
+
+                        <span class="nav-set">
+                            <span class="nav-login">
+                                <a href="account/login.htm" tppabs="http://zuiacg.cc/account/login" onclick="showbox('wp-uc-login');return false"><i class="fa fa-sign-in"></i> 登录</a>
+                            </span>
+                        </span>
+                    </div>
+
+                </div>
+            </nav>
+            <!-- #top-header -->
+
+            <div id="menu-box">
+                <div id="top-menu">
+                    <span class="nav-search"><i class="fa fa-search"></i></span>
+                    <span class="mobile-login"><a href="#login" id="login-mobile"><i class="fa fa-sun-o"></i></a></span>
+                    <hgroup class="logo-site">
+                        <p class="site-title">
+                            <a href="index.htm" tppabs="http://zuiacg.cc/"><img src="images/logo_v3.png" tppabs="http://zuiacg.cc/images/logo_v3.png" width="220" height="50" alt="最ACG" /></a>
+                        </p>
+                    </hgroup>
+                    <!-- .logo-site -->
+                    <div id="site-nav-wrap">
+                        <div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close">×</a></div>
+                        <nav id="site-nav" class="main-nav">
+                            <a href="#sidr-main" id="navigation-toggle" class="bars"><i class="fa fa-bars"></i></a>
+                            <div>
+                                <ul class="down-menu nav-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.htm" tppabs="http://zuiacg.cc/"><i class="fa-home fa"></i><span class="font-text">首页</span></a></li>
+
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="1/1-1.htm" tppabs="http://zuiacg.cc/1/1-1" title="动画"><i class="fa-film fa"></i><span class="font-text">动画</span></a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="2/2-1.htm" tppabs="http://zuiacg.cc/2/2-1" title="游戏"><i class="fa-gamepad fa"></i><span class="font-text">游戏</span></a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="source/12-1.htm" tppabs="http://zuiacg.cc/source/12-1" title="资源"><i class="fa-download fa"></i><span class="font-text">资源</span></a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="4/4-1.htm" tppabs="http://zuiacg.cc/4/4-1" title="吐槽向"><i class="fa-book fa"></i><span class="font-text">吐槽向</span></a></li>
+
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="imageslist.htm" tppabs="http://zuiacg.cc/imageslist"><i class="fa-image fa"></i><span class="font-text">图集</span></a></li>
+
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="feedback.htm" tppabs="http://zuiacg.cc/feedback"><i class="fa-users fa"></i><span class="font-text">留言板</span></a></li>
+                                </ul>
+
+
+                            </div>
+
+
+                        </nav>
+                        <!-- #site-nav -->
+
+                    </div>
+                    <!-- #site-nav-wrap -->
+                    <div class="clear">
+                    </div>
+                </div>
+                <!-- #top-menu -->
+            </div>
+            <!-- #menu-box -->
+
+
+
+        </header>
+        <div id="search-main">
+            <div id="searchbar">
+                <form method="get" id="searchform" action="http://zuiacg.cc/search/">
+                    <input type="text" value="" name="s" id="s" placeholder="输入关键词进行搜索" required />
+                    <button type="submit" id="searchsubmit">搜索</button>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="Scripts/jquery.validate.min.js" tppabs="http://zuiacg.cc/Scripts/jquery.validate.min.js"></script>
+        <script src="Scripts/jquery.validate.unobtrusive.min.js" tppabs="http://zuiacg.cc/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+        <div id="wp-uc-login" style="display:none">
+            <div class="uc-masking"></div>
+            <table>
+                <tr>
+                    <td class="uc-col">
+                        <div class="uc-box">
+                            <span class="uc-close" onclick="hidebox('wp-uc-login')" title="关闭">×</span>
+                            <div class="uc-body">
+                                <!-- By WordPress 用户中心 http://blogqun.com/wp-user-center.html -->
+
+                                <form action="http://zuiacg.cc/account/login" method="post"><input id="ReturnUrl" name="ReturnUrl" type="hidden" value="/" /><input data-val="true" data-val-required="RememberMe 字段是必需的。" id="RememberMe" name="RememberMe" type="hidden" value="true" />
+                                    <h2>社交帐号注册/登录</h2>
+                                    <div class="uc-connect">
+
+
+
+                                    </div>
+                                    <div class="uc-head"> 或者使用网站帐号登录</div>
+                                    <div class="uc-input">
+                                        <input data-val="true" data-val-required="&lt;p class=&#39;error&#39;>请输入邮箱&lt;/p>" id="txtUserName" name="UserName" placeholder="用户名或邮箱" required="required" size="20" type="text" value="" />
+                                    </div>
+                                    <div class="uc-input">
+                                        <input data-val="true" data-val-required="&lt;p class=&#39;error&#39;>请输入密码&lt;/p>" id="Password" name="Password" placeholder="密码" size="20" title="请输入密码^_^" type="password" />
+
+                                    </div>
+                                    <div class="uc-submit">
+                                        <button class="uc-button">登录</button>
+                                        <a href="account/register/index.htm" tppabs="http://zuiacg.cc/account/register/" class="uc-signup">需要一个帐号吗?</a>
+                                    </div>
+                                    <div class="uc-forgot"><a href="account/password_reset.htm" tppabs="http://zuiacg.cc/account/password_reset">找回密码?</a> </div>
+                                </form>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+
+            </table>
+        </div>
+
+
+        <div id="login">
+            <div class="login-t">用户登录</div>
+            <!--未登录-->
+            <form action="http://zuiacg.cc/account/login" method="post"><input data-val="true" data-val-required="&lt;p class=&#39;error&#39;>请输入邮箱&lt;/p>" id="UserName" name="UserName" placeholder="用户名或邮箱" required="required" type="username" value="" /><input data-val="true" data-val-required="&lt;p class=&#39;error&#39;>请输入密码&lt;/p>"
+                    id="Password" name="Password" placeholder="密码" required="required" type="password" /><input id="ReturnUrl" name="ReturnUrl" type="hidden" value="/" /><input data-val="true" data-val-required="RememberMe 字段是必需的。" id="RememberMe" name="RememberMe"
+                    type="hidden" value="true" /> <input type="submit" id="submit" value="登录">
+                <a href="account/password_reset.htm" tppabs="http://zuiacg.cc/account/password_reset">&nbsp;&nbsp;忘记密码？</a> <a href="account/register.htm" tppabs="http://zuiacg.cc/account/register">&nbsp;&nbsp;前往注册！</a><br />
+                <style>
+                    .t_login_text {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .t_login_button {
+                        margin: 0;
+                        padding: 5px 0;
+                    }
+                    
+                    .t_login_button a {
+                        margin: 0;
+                        padding-right: 3px;
+                        border: 0;
+                        line-height: 25px;
+                    }
+                    
+                    #socialloginlist .t_login_button a img {
+                        display: inline !important;
+                        border: none !important;
+                    }
+                    
+                    #login img {
+                        float: none;
+                        width: auto;
+                        height: auto;
+                        margin: 0 auto;
+                        padding: 0px;
+                    }
+                </style>
+            </form>
+
+
+
+
+
+            <div class="login-b"></div>
+        </div>
+
+
+
+
+
+        <script>
+            function loginout() {
+                $.ajax({
+                    type: "post",
+                    url: "/account/loginout",
+                    data: {
+                        logout: 'true'
+                    },
+                    success: function(msg) {
+                        if (msg == "success") {
+                            window.location.reload();
+                        }
+                    },
+                    error: function(xhr, msg, e) {
+
+                    }
+                });
+            }
+        </script>
+
+
+
+
+
+        <!--首页内容-->
+        <nav class="breadcrumb">
+            <div class="bull"><i class="fa fa-volume-up"></i></div>
+            <div id="scrolldiv">
+                <div class="scrolltext">
+                    <ul>
+                        <li class="scrolltext-title">
+                            <a href="news/3087/notice-why.htm" tppabs="http://zuiacg.cc/news/3087/notice-why" rel="bookmark" target="_blank">【重要公告】大家都进来看看吧。</a>
+
+                        </li>
+                        <li class="scrolltext-title">
+                            <a href="news/3042/zuiacg-game.htm" tppabs="http://zuiacg.cc/news/3042/zuiacg-game" rel="bookmark" target="_blank">【网站返币活动】最ACG网站游戏库开启</a>
+
+                        </li>
+                        <li class="scrolltext-title">
+                            <a href="news/2079/notice-1.htm" tppabs="http://zuiacg.cc/news/2079/notice-1" rel="bookmark" target="_blank">【公告】最ACG新版上线，感谢有你</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("#scrolldiv").textSlider({
+                        line: 1,
+                        speed: 300,
+                        timer: 6000
+                    });
+                })
+            </script>
+        </nav>
+
+        <div class="client-site client_record">
+            <center>
+
+                <a href="javascript:if(confirm('https://shop477300517.taobao.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='https://shop477300517.taobao.com/'" tppabs="https://shop477300517.taobao.com/"
+                    target="_blank" data-no="406">
+
+                    <img src="../ww3.sinaimg.cn/large/0060lm7Tgy1fds36jnyhgj30u003cadc.jpg" tppabs="http://ww3.sinaimg.cn/large/0060lm7Tgy1fds36jnyhgj30u003cadc.jpg" />
+                </a>
+            </center>
+        </div>
+
+
+        <div id="content" class="site-content">
+
+            <div id="slideshow">
+                <ul class="rslides" id="slider">
+
+                    <li>
+                        <a href="news/3065/kantoku2017.htm" tppabs="http://zuiacg.cc/news/3065/kantoku2017" rel="bookmark"><img src="../img.acgbz.com/Focus/20161211/focus/20161211112201b13a4fcadcb647bd86b2d532e21f492f.jpg" tppabs="https://img.acgbz.com/Focus/20161211/focus/20161211112201b13a4fcadcb647bd86b2d532e21f492f.jpg" alt="【画集】[5年目の放課後]カントク（Kantoku）2017年年历"
+                            /></a>
+                        <p class="slider-caption">【画集】[5年目の放課後]カントク（Kantoku）2017年年历</p>
+                    </li>
+                    <li>
+                        <a href="news/2771/hiten02.htm" tppabs="http://zuiacg.cc/news/2771/hiten02" rel="bookmark"><img src="../img.acgbz.com/Focus/20161119/focus/20161119095008704cc9b40a55486bbbc94a3d57dded70.jpg" tppabs="https://img.acgbz.com/Focus/20161119/focus/20161119095008704cc9b40a55486bbbc94a3d57dded70.jpg" alt="【画集】[Pixiv]Hiten画集(490219)"
+                            /></a>
+                        <p class="slider-caption">【画集】[Pixiv]Hiten画集(490219)</p>
+                    </li>
+                    <li>
+                        <a href="news/2760/hukahire.htm" tppabs="http://zuiacg.cc/news/2760/hukahire" rel="bookmark"><img src="../img.acgbz.com/Focus/20161114/focus/20161114201830bf30f7bf3d5644a2a58154d04e392678.jpg" tppabs="https://img.acgbz.com/Focus/20161114/focus/20161114201830bf30f7bf3d5644a2a58154d04e392678.jpg" alt="【画集】[Pixiv]フカヒレ画集(58338)"
+                            /></a>
+                        <p class="slider-caption">【画集】[Pixiv]フカヒレ画集(58338)</p>
+                    </li>
+                    <li>
+                        <a href="news/2757/yaman.htm" tppabs="http://zuiacg.cc/news/2757/yaman" rel="bookmark"><img src="../img.acgbz.com/Focus/20161109/focus/20161109194458b4e9b63ba35f4bf18dfd066e6dab3d54.jpg" tppabs="https://img.acgbz.com/Focus/20161109/focus/20161109194458b4e9b63ba35f4bf18dfd066e6dab3d54.jpg" alt="【画集】[Pixiv]yaman**画集(3043057)"
+                            /></a>
+                        <p class="slider-caption">【画集】[Pixiv]yaman**画集(3043057)</p>
+                    </li>
+                    <li>
+                        <a href="news/2749/tawawa04.htm" tppabs="http://zuiacg.cc/news/2749/tawawa04" rel="bookmark"><img src="../img.acgbz.com/Focus/20161031/focus/201610311315202305f024e9304d1b9f3b3c0b16ebc9d9.jpg" tppabs="https://img.acgbz.com/Focus/20161031/focus/201610311315202305f024e9304d1b9f3b3c0b16ebc9d9.jpg" alt="【动画下载】《月曜日のたわわ(星期一的丰满)》第4集百度云下载"
+                            /></a>
+                        <p class="slider-caption">【动画下载】《月曜日のたわわ(星期一的丰满)》第4集百度云下载</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ad-pc client-site client_record">
+                <center>
+                    <a href="game.htm" tppabs="http://zuiacg.cc/game" target="_blank" data-no="301">
+
+                        <img src="../ww1.sinaimg.cn/large/ca184bb0jw1fckgsqpt6xj20u002s3yu.jpg" tppabs="http://ww1.sinaimg.cn/large/ca184bb0jw1fckgsqpt6xj20u002s3yu.jpg" />
+                    </a>
+                </center>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="clear"></div>
+
+            <!-- 动漫图区 -->
+            <div class="box_t">
+                <a href="imageslist.htm" tppabs="http://zuiacg.cc/imageslist"><span><i class="fa-paper-plane-o fa"></i> 动漫图区</span></a>
+            </div>
+
+
+            <section id="picture" class="content-area">
+                <main id="main" class="site-main" role="main">
+                    <article class="picture">
+                        <div class="xl5 xm5">
+                            <div class="picture-box">
+                                <figure class="picture-img">
+                                    <a href="news/3876/Silverscape.htm" tppabs="http://zuiacg.cc/news/3876/Silverscape" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" alt="【画集】(C91)[pastyle(よろず)]SilverscapeII" data-original="https://img.acgbz.com/ArticleImage/20170402/thumb/20170402171148.jpg"
+                                        /></a> <span class="grid_index">     </span><b class="vodsbg"></b>
+                                </figure>
+                                <h3 class="picture-title"><a href="news/3876/Silverscape.htm" tppabs="http://zuiacg.cc/news/3876/Silverscape" rel="bookmark">【画集】(C91)[pastyle(よろず)]SilverscapeII</a></h3> <span class="grid-inf"> <span class="date tooltip-trigger" title="管理员"><img src="avatar/25/20150709004634390.jpg" tppabs="http://zuiacg.cc/avatar/25/20150709004634390.jpg" width="30" height="30" alt="管理员" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" /></span>                                <span class="views"> <span class="yy-icon yy-view">1746</span><span id="xxpls" class="yy-icon yy-comment"><a href="news/3876/Silverscape.htm#comments" tppabs="http://zuiacg.cc/news/3876/Silverscape#comments" class="commentslink">3</a></span>                                </span>
+                                </span>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="picture">
+                        <div class="xl5 xm5">
+                            <div class="picture-box">
+                                <figure class="picture-img">
+                                    <a href="news/3683/shiva.htm" tppabs="http://zuiacg.cc/news/3683/shiva" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" alt="【画集】(C91)[EXECUTOR～エグゼクター～(シヴァ。)]EXECUTOR illustration MATOME 2016(ラブライブ! サンシャイン!!)" data-original="https://img.acgbz.com/ArticleImage/20170317/thumb/20170317184203.jpg"
+                                        /></a> <span class="grid_index">     </span><b class="vodsbg"></b>
+                                </figure>
+                                <h3 class="picture-title"><a href="news/3683/shiva.htm" tppabs="http://zuiacg.cc/news/3683/shiva" rel="bookmark">【画集】(C91)[EXECUTOR～エグゼクター～(シヴァ。)]EXECUTOR illustration MATOME 2016(ラブライブ! サンシャイン!!)</a></h3> <span class="grid-inf"> <span class="date tooltip-trigger" title="管理员"><img src="avatar/25/20150709004634390.jpg" tppabs="http://zuiacg.cc/avatar/25/20150709004634390.jpg" width="30" height="30" alt="管理员" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" /></span>                                <span class="views"> <span class="yy-icon yy-view">5547</span><span id="xxpls" class="yy-icon yy-comment"><a href="news/3683/shiva.htm#comments" tppabs="http://zuiacg.cc/news/3683/shiva#comments" class="commentslink">16</a></span>                                </span>
+                                </span>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="picture">
+                        <div class="xl5 xm5">
+                            <div class="picture-box">
+                                <figure class="picture-img">
+                                    <a href="news/3660/ayami.htm" tppabs="http://zuiacg.cc/news/3660/ayami" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" alt="【画集】(C91)[ハチゴ(あやみ)]REM X MIMI[女子力研究X无毒汉化组]" data-original="https://img.acgbz.com/ArticleImage/20170219/thumb/20170219173121.jpg"
+                                        /></a> <span class="grid_index">     </span><b class="vodsbg"></b>
+                                </figure>
+                                <h3 class="picture-title"><a href="news/3660/ayami.htm" tppabs="http://zuiacg.cc/news/3660/ayami" rel="bookmark">【画集】(C91)[ハチゴ(あやみ)]REM X MIMI[女子力研究X无毒汉化组]</a></h3> <span class="grid-inf"> <span class="date tooltip-trigger" title="管理员"><img src="avatar/25/20150709004634390.jpg" tppabs="http://zuiacg.cc/avatar/25/20150709004634390.jpg" width="30" height="30" alt="管理员" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" /></span>                                <span class="views"> <span class="yy-icon yy-view">9549</span><span id="xxpls" class="yy-icon yy-comment"><a href="news/3660/ayami.htm#comments" tppabs="http://zuiacg.cc/news/3660/ayami#comments" class="commentslink">13</a></span>                                </span>
+                                </span>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="picture">
+                        <div class="xl5 xm5">
+                            <div class="picture-box">
+                                <figure class="picture-img">
+                                    <a href="news/3456/anmi01.htm" tppabs="http://zuiacg.cc/news/3456/anmi01" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" alt="【画集】(C91)[メガネ少女(Anmi)]Avian Romance PINK LABEL" data-original="https://img.acgbz.com/ArticleImage/20170128/thumb/20170128100426.jpg"
+                                        /></a> <span class="grid_index">     </span><b class="vodsbg"></b>
+                                </figure>
+                                <h3 class="picture-title"><a href="news/3456/anmi01.htm" tppabs="http://zuiacg.cc/news/3456/anmi01" rel="bookmark">【画集】(C91)[メガネ少女(Anmi)]Avian Romance PINK LABEL</a></h3> <span class="grid-inf"> <span class="date tooltip-trigger" title="管理员"><img src="avatar/25/20150709004634390.jpg" tppabs="http://zuiacg.cc/avatar/25/20150709004634390.jpg" width="30" height="30" alt="管理员" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" /></span>                                <span class="views"> <span class="yy-icon yy-view">25265</span><span id="xxpls" class="yy-icon yy-comment"><a href="news/3456/anmi01.htm#comments" tppabs="http://zuiacg.cc/news/3456/anmi01#comments" class="commentslink">63</a></span>                                </span>
+                                </span>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="picture">
+                        <div class="xl5 xm5">
+                            <div class="picture-box">
+                                <figure class="picture-img">
+                                    <a href="news/3065/kantoku2017.htm" tppabs="http://zuiacg.cc/news/3065/kantoku2017" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" alt="【画集】[5年目の放課後]カントク（Kantoku）2017年年历" data-original="https://img.acgbz.com/ArticleImage/20161211/thumb/20161211112216.jpg"
+                                        /></a> <span class="grid_index">     </span><b class="vodsbg"></b>
+                                </figure>
+                                <h3 class="picture-title"><a href="news/3065/kantoku2017.htm" tppabs="http://zuiacg.cc/news/3065/kantoku2017" rel="bookmark">【画集】[5年目の放課後]カントク（Kantoku）2017年年历</a></h3> <span class="grid-inf"> <span class="date tooltip-trigger" title="管理员"><img src="avatar/25/20150709004634390.jpg" tppabs="http://zuiacg.cc/avatar/25/20150709004634390.jpg" width="30" height="30" alt="管理员" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" /></span>                                <span class="views"> <span class="yy-icon yy-view">16301</span><span id="xxpls" class="yy-icon yy-comment"><a href="news/3065/kantoku2017.htm#comments" tppabs="http://zuiacg.cc/news/3065/kantoku2017#comments" class="commentslink">93</a></span>                                </span>
+                                </span>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="picture">
+                        <div class="xl5 xm5">
+                            <div class="picture-box">
+                                <figure class="picture-img">
+                                    <a href="news/2771/hiten02.htm" tppabs="http://zuiacg.cc/news/2771/hiten02" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" alt="【画集】[Pixiv]Hiten画集(490219)" data-original="https://img.acgbz.com/ArticleImage/20161119/thumb/20161119094857.jpg"
+                                        /></a> <span class="grid_index">     </span><b class="vodsbg"></b>
+                                </figure>
+                                <h3 class="picture-title"><a href="news/2771/hiten02.htm" tppabs="http://zuiacg.cc/news/2771/hiten02" rel="bookmark">【画集】[Pixiv]Hiten画集(490219)</a></h3> <span class="grid-inf"> <span class="date tooltip-trigger" title="管理员"><img src="avatar/25/20150709004634390.jpg" tppabs="http://zuiacg.cc/avatar/25/20150709004634390.jpg" width="30" height="30" alt="管理员" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" /></span>                                <span class="views"> <span class="yy-icon yy-view">20341</span><span id="xxpls" class="yy-icon yy-comment"><a href="news/2771/hiten02.htm#comments" tppabs="http://zuiacg.cc/news/2771/hiten02#comments" class="commentslink">102</a></span>                                </span>
+                                </span>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="picture">
+                        <div class="xl5 xm5">
+                            <div class="picture-box">
+                                <figure class="picture-img">
+                                    <a href="news/2760/hukahire.htm" tppabs="http://zuiacg.cc/news/2760/hukahire" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" alt="【画集】[Pixiv]フカヒレ画集(58338)" data-original="https://img.acgbz.com/ArticleImage/20161113/thumb/20161113101735.jpg"
+                                        /></a> <span class="grid_index">     </span><b class="vodsbg"></b>
+                                </figure>
+                                <h3 class="picture-title"><a href="news/2760/hukahire.htm" tppabs="http://zuiacg.cc/news/2760/hukahire" rel="bookmark">【画集】[Pixiv]フカヒレ画集(58338)</a></h3> <span class="grid-inf"> <span class="date tooltip-trigger" title="管理员"><img src="avatar/25/20150709004634390.jpg" tppabs="http://zuiacg.cc/avatar/25/20150709004634390.jpg" width="30" height="30" alt="管理员" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" /></span>                                <span class="views"> <span class="yy-icon yy-view">16251</span><span id="xxpls" class="yy-icon yy-comment"><a href="news/2760/hukahire.htm#comments" tppabs="http://zuiacg.cc/news/2760/hukahire#comments" class="commentslink">82</a></span>                                </span>
+                                </span>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="picture">
+                        <div class="xl5 xm5">
+                            <div class="picture-box">
+                                <figure class="picture-img">
+                                    <a href="news/2757/yaman.htm" tppabs="http://zuiacg.cc/news/2757/yaman" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" alt="【画集】[Pixiv]yaman**画集(3043057)" data-original="https://img.acgbz.com/ArticleImage/20161109/thumb/20161109194238.jpg"
+                                        /></a> <span class="grid_index">     </span><b class="vodsbg"></b>
+                                </figure>
+                                <h3 class="picture-title"><a href="news/2757/yaman.htm" tppabs="http://zuiacg.cc/news/2757/yaman" rel="bookmark">【画集】[Pixiv]yaman**画集(3043057)</a></h3> <span class="grid-inf"> <span class="date tooltip-trigger" title="管理员"><img src="avatar/25/20150709004634390.jpg" tppabs="http://zuiacg.cc/avatar/25/20150709004634390.jpg" width="30" height="30" alt="管理员" class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo" /></span>                                <span class="views"> <span class="yy-icon yy-view">21014</span><span id="xxpls" class="yy-icon yy-comment"><a href="news/2757/yaman.htm#comments" tppabs="http://zuiacg.cc/news/2757/yaman#comments" class="commentslink">83</a></span>                                </span>
+                                </span>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+
+                </main>
+                <!-- .site-main -->
+
+            </section>
+            <!-- .content-area -->
+            <!-- 动漫图区 -->
+
+
+
+            <div class="clear"></div>
+
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+                    <div id="cms-widget-one">
+                        <div class="clear"></div>
+                    </div>
+
+
+                    <div id="cms-widget-two">
+                        <div class="clear"></div>
+                    </div>
+                </main>
+                <!-- .site-main -->
+            </div>
+            <!-- .content-area -->
+
+            <div id="sidebar" class="widget-area">
+                <div class="sidebar-roll">
+                </div>
+            </div>
+
+            <div class="clear"></div>
+            <div class="ad-pc client-site client_record">
+                <center>
+
+                    <img src="../img.erciyuan.club/client/weixin/1080.jpg" tppabs="https://img.erciyuan.club/client/weixin/1080.jpg" />
+
+                </center>
+            </div>
+            <div class="line-big">
+                <div class="xl3 xm3">
+                    <div class="cat-box">
+                        <h3 class="cat-title"><a href="1/1-1.htm" tppabs="http://zuiacg.cc/1/1-1" title="动漫资讯"><i class="fa fa-bars"></i>动漫资讯</a></h3>
+                        <div class="clear"></div>
+                        <div class="cat-site">
+                            <h2 class="entry-title"><a href="news/3890/newgameanime.htm" tppabs="http://zuiacg.cc/news/3890/newgameanime" rel="bookmark">《NEW GAME！！》第二季放送日确定为7月，官网更新视觉图！！！</a></h2>
+                            <figure class="thumbnail">
+                                <a href="news/3890/newgameanime.htm" tppabs="http://zuiacg.cc/news/3890/newgameanime" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" data-original="https://img.acgbz.com/ArticleImage/20170404/thumb/20170404165316.jpg" alt="《NEW GAME！！》第二季放送日确定为7月，官网更新视觉图！！！"
+                                    /></a>
+                            </figure>
+                            <div class="cat-main">
+                                之前宣布将会制作第二期动画的《NEW GAME！！》确定了放送日为今年的7月
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <ul class="cat-list">
+                                <span class="list-date">03/28</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3871/izumi01.htm" tppabs="http://zuiacg.cc/news/3871/izumi01" rel="bookmark">《爱吃拉面的小泉同学》动画化确定，将由Studio五组制作</a></li>
+                                <span class="list-date">03/22</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3866/kakegurui-anime.htm" tppabs="http://zuiacg.cc/news/3866/kakegurui-anime" rel="bookmark">漫画改编动画《狂赌之渊》预定7月开播，第一弹PV公开</a></li>
+                                <span class="list-date">01/09</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3318/battlegirl-hs.htm" tppabs="http://zuiacg.cc/news/3318/battlegirl-hs" rel="bookmark">手游改编动画《战斗女子学园（バトルガール ハイスクール）》预定2017年7月开播</a></li>
+                                <span class="list-date">12/29</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3089/Re-CREATORS01.htm" tppabs="http://zuiacg.cc/news/3089/Re-CREATORS01" rel="bookmark">泽野弘之动画新作《Re:CREATORS（レクリエイターズ）》第一弹PV公开</a></li>
+                                <span class="list-date">10/25</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/2741/konosuba2.htm" tppabs="http://zuiacg.cc/news/2741/konosuba2" rel="bookmark">人气轻小说改编动画《为美好的世界献上祝福！2》播放日公布，第一弹PV公开</a></li>
+                                <span class="list-date">07/27</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/2046/gabdro.htm" tppabs="http://zuiacg.cc/news/2046/gabdro" rel="bookmark">漫画《珈百璃的堕落》动画化确认，动画官网公开</a></li>
+                                <span class="list-date">07/25</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/2039/blame.htm" tppabs="http://zuiacg.cc/news/2039/blame" rel="bookmark">剧场版动画《BLAME！》PV解禁，2017年公映</a></li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="xl3 xm3">
+                    <div class="cat-box">
+                        <h3 class="cat-title"><a href="2/2-1.htm" tppabs="http://zuiacg.cc/2/2-1" title="游戏"><i class="fa fa-bars"></i>游戏</a></h3>
+                        <div class="clear"></div>
+                        <div class="cat-site">
+                            <h2 class="entry-title"><a href="news/3452/vrfgo.htm" tppabs="http://zuiacg.cc/news/3452/vrfgo" rel="bookmark">《Fate/Grand Order》VR企划发布，宣传动画公开</a></h2>
+                            <figure class="thumbnail">
+                                <a href="news/3452/vrfgo.htm" tppabs="http://zuiacg.cc/news/3452/vrfgo" target="_blank"><img src="images/lazyload/lazyload_350.jpg" tppabs="http://zuiacg.cc/images/lazyload/lazyload_350.jpg" class="lazy" data-original="https://img.acgbz.com/ArticleImage/20170121/thumb/20170121204151.jpg" alt="《Fate/Grand Order》VR企划发布，宣传动画公开"
+                                    /></a>
+                            </figure>
+                            <div class="cat-main">
+                                《Fate/Grand Order》公开了其VR化的企划《Fate/Grand Order VR feat.玛修&#183;基列莱特》
+                            </div>
+
+                            <div class="clear"></div>
+
+                            <ul class="cat-list">
+                                <span class="list-date">01/19</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3450/ajjj.htm" tppabs="http://zuiacg.cc/news/3450/ajjj" rel="bookmark">3DS游戏《火焰纹章Echoes:另一个英雄王》发售日确定，PV动画公开</a></li>
+                                <span class="list-date">01/19</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3449/ajjjwu.htm" tppabs="http://zuiacg.cc/news/3449/ajjjwu" rel="bookmark">3DS游戏《火焰纹章无双》制作确定，影像公开</a></li>
+                                <span class="list-date">01/16</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3327/awvssao.htm" tppabs="http://zuiacg.cc/news/3327/awvssao" rel="bookmark">PS4/PSV平台游戏《加速世界vs刀剑神域:千年的黄昏》OP动画公开</a></li>
+                                <span class="list-date">01/06</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3316/re-zerogame.htm" tppabs="http://zuiacg.cc/news/3316/re-zerogame" rel="bookmark">PS4/PSV游戏《Re：从零开始的异世界生活-DEATH OR KISS-》OP动画公开</a></li>
+                                <span class="list-date">12/27</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3086/re0game01.htm" tppabs="http://zuiacg.cc/news/3086/re0game01" rel="bookmark">PS4/PSV游戏《Re：从零开始的异世界生活-DEATH OR KISS-》PV公开</a></li>
+                                <span class="list-date">12/20</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/3080/sen3_01.htm" tppabs="http://zuiacg.cc/news/3080/sen3_01" rel="bookmark">falcom轨迹系列新作《英雄传说 闪之轨迹3》PS4平台独占，官网开放</a></li>
+                                <span class="list-date">09/21</span>
+                                <li class="list-title"><i class="fa fa-angle-right"></i><a href="news/2453/yorunai2.htm" tppabs="http://zuiacg.cc/news/2453/yorunai2" rel="bookmark">PS4/PSV游戏《无夜国度2新月的新娘》第一弹PV公开</a></li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+
+            <div class="clear"></div>
+            <div id="links">
+                <ul>
+                    <li class="linkcat">
+                        <h2>友情链接</h2>
+                        <ul class='xoxo blogroll'>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://galacg.me/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://galacg.me/'" tppabs="http://galacg.me/" target="_blank">绅士仓库</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.eroacg.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.eroacg.com/'" tppabs="http://www.eroacg.com/" target="_blank">工口ACG</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('https://www.tsecy.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='https://www.tsecy.com/'" tppabs="https://www.tsecy.com/" target="_blank">天使二次元</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.oxgood.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.oxgood.com/'" tppabs="http://www.oxgood.com/" target="_blank">萌图网</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://bbs.cl-acg.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://bbs.cl-acg.com/'" tppabs="http://bbs.cl-acg.com/" target="_blank">御宅同萌</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://m-o-e.me/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://m-o-e.me/'" tppabs="http://m-o-e.me/" target="_blank">萌游戏 </a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.moem.cc/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.moem.cc/'" tppabs="http://www.moem.cc/" target="_blank">月之殿</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.gal123.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.gal123.com/'" tppabs="http://www.gal123.com/" target="_blank">绅士导航♂</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://news.comicst.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://news.comicst.com/'" tppabs="http://news.comicst.com/" target="_blank">动漫资讯</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.acglover.top/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.acglover.top/'" tppabs="http://www.acglover.top/" target="_blank">次元の圣光</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('https://lifanmoe.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='https://lifanmoe.com/'" tppabs="https://lifanmoe.com/" target="_blank">里番萌</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.kisssub.org/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.kisssub.org/'" tppabs="http://www.kisssub.org/" target="_blank">爱恋BT发布页</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://acgyy.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://acgyy.com/'" tppabs="http://acgyy.com/" target="_blank">恋次元动漫</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.aojiao.org/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.aojiao.org/'" tppabs="http://www.aojiao.org/" target="_blank">傲娇零次元</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.2cymacg.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.2cymacg.com/'" tppabs="http://www.2cymacg.com/" target="_blank">二次元迷</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://acg12.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://acg12.com/'" tppabs="http://acg12.com/" target="_blank">ACG调查小队</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.moeplay.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.moeplay.com/'" tppabs="http://www.moeplay.com/" target="_blank">萌玩网</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.csxy.cc/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.csxy.cc/'" tppabs="http://www.csxy.cc/" target="_blank">超神学院</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://fanshuapp.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://fanshuapp.com/'" tppabs="http://fanshuapp.com/" target="_blank">番薯小报</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.91dm.cc/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.91dm.cc/'" tppabs="http://www.91dm.cc/" target="_blank">动漫资源网</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.moe321.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.moe321.com/'" tppabs="http://www.moe321.com/" target="_blank">萌站&#183;次元导航</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://aibenzi.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://aibenzi.com/'" tppabs="http://aibenzi.com/" target="_blank">爱本子</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.halihali.tv/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.halihali.tv/'" tppabs="http://www.halihali.tv/" target="_blank">哈哩哈哩</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.snh0048.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.snh0048.com/'" tppabs="http://www.snh0048.com/" target="_blank">AKB48 </a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.kuaikanmanhua.com/web/topic/445/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.kuaikanmanhua.com/web/topic/445/'" tppabs="http://www.kuaikanmanhua.com/web/topic/445/" target="_blank">我家大师兄脑子有坑</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.92acg.cc/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.92acg.cc/'" tppabs="http://www.92acg.cc/" target="_blank">玖爱萌动漫</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://moe.005.tv/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://moe.005.tv/'" tppabs="http://moe.005.tv/" target="_blank">萌娘资源站</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.huanxiao99.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.huanxiao99.com/'" tppabs="http://www.huanxiao99.com/" target="_blank">欢笑Galgame</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.north-plus.net/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.north-plus.net/'" tppabs="http://www.north-plus.net/" target="_blank">North+</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://www.idanmu.co/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://www.idanmu.co/'" tppabs="http://www.idanmu.co/" target="_blank">爱弹幕</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://caofree.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://caofree.com/'" tppabs="http://caofree.com/" target="_blank">绝对领域</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://caofree.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://caofree.com/'" tppabs="http://caofree.com/" target="_blank">CAOFREE绝对领域</a></span></span>
+                            <span class="lx7"><span class="link-f"><a href="javascript:if(confirm('http://jren100.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://jren100.com/'" tppabs="http://jren100.com/" target="_blank">吉人动漫网</a></span></span>
+
+                        </ul>
+                    </li>
+                    <span class="lx7"><span class="link-f"><li><a href="javascript:if(confirm('http://wpa.qq.com/msgrd?V=3&uin=347917953&Site=QQ&Menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ������·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ�����?'))window.location='http://wpa.qq.com/msgrd?V=3&uin=347917953&Site=QQ&Menu=yes'" tppabs="http://wpa.qq.com/msgrd?V=3&uin=347917953&Site=QQ&Menu=yes" target="_blank" title="全部链接">添加友链<i class="icon-li"></i></a></li></span></span>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        
+            <div class="clear"></div>
+
+        </div>
+        <!-- .site-content -->
+        <!--首页内容-->
+
+
+
+        <div id="footer-widget-box">
+            <div class="footer-widget">
+                <aside id="text-3" class="widget widget_text">
+                    <div class="textwidget">
+                        <ul class="menu">
+
+                            <li><a href="notice/11-1.htm" tppabs="http://zuiacg.cc/notice/11-1"><i class="fa fa-get-pocket"></i><span class="font-text">网站公告</span></a></li>
+                            <li><a href="javascript:if(confirm('http://zuiacg.cc/sitemap.xml  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ �������������ļ�δ�ҵ���  \n\n�����ڷ������ϴ�����?'))window.location='http://zuiacg.cc/sitemap.xml'" tppabs="http://zuiacg.cc/sitemap.xml"
+                                    target="_blank"><i class="fa fa-calendar"></i><span class="font-text">文章归档</span></a></li>
+                            <li><a href="taglist.htm" tppabs="http://zuiacg.cc/taglist"><i class="fa fa-tag"></i><span class="font-text">全部标签</span></a></li>
+                            <li><a href="advertising.htm" tppabs="http://zuiacg.cc/advertising"><i class="fa fa-get-pocket"></i><span class="font-text">广告投放</span></a></li>
+                            <li><a href="about.htm" tppabs="http://zuiacg.cc/about" target="_blank"><i class="fa fa-get-pocket"></i><span class="font-text">关于我们</span></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </aside>
+                <aside id="text-4" class="widget widget_text">
+                    <h3 class="widget-title">
+                        <div class="s-icon"></div>关于我们
+                    </h3>
+                    <div class="textwidget">最ACG网成立于 2013年6月19日 00时10分38秒，致力于分享acg资源，图片，动画，本子等二次元资源</div>
+                    <div class="clear"></div>
+                </aside>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <footer id="colophon" class="site-footer" role="contentinfo">
+
+            <div class="site-info">
+                Copyright &copy;&nbsp;&nbsp;最ACG网&nbsp;&nbsp;版权所有.
+                <p>免责声明：本站为非盈利性站点，所有出租广告位收入主要用于网站服务器的开销及维护 </p>
+                <p>QQ群：287434936 </p>
+                <p>网站使用过程中如遇到问题请联系：weixindo@163.com </p>
+            </div>
+            <!-- .site-info -->
+        </footer>
+        <!-- .site-footer -->
+
+
+        <ul id="scroll">
+            <li><a class="scroll-h" title="返回顶部"><i class="fa fa-angle-up"></i></a></li>
+            <li><a class="scroll-b" title="转到底部"><i class="fa fa-angle-down"></i></a></li>
+        </ul>
+
+
+
+
+
+
+
+
+
+        <input type="hidden" id="currentDevice" value="pc" />
+        <script type='text/javascript' src="js/user-center.js" tppabs="http://zuiacg.cc/js/user-center.js"></script>
+        <script src="js/lazyload/jquery.lazyload.min.js" tppabs="http://zuiacg.cc/js/lazyload/jquery.lazyload.min.js"></script>
+        <script>
+            jQuery(document).ready(function($) {
+                $('http://zuiacg.cc/img.lazy').lazyload({
+                    effect: "fadeIn"
+                        //, threshold:0
+                });
+            });
+
+            browserRedirect();
+
+            function browserRedirect() {
+                var dominUrl = window.location;
+                var dominArr = [
+                    'http://zuiacg.com/', 'http://zuiacg.com/'
+                ];
+                var link = dominUrl.href.replace("http://zuiacg.cc/zuiacg.com", "zuiacg.com/mobile");
+                if (location.href.indexOf('pc=1') < 0) {
+                    var getUserAgent = navigator.userAgent.toLowerCase();
+                    var CoreNameArr = ['iphone os', 'iphone', 'android', 'mobile', 'ipod', 'ipad', 'rv:1.2.3.4', 'series', 'mqqbrowser', 'midp', 'ucweb', 'windows ce', 'windows mobile'];
+                    for (var key = 0; key < CoreNameArr.length; key++) {
+                        var moblieRegExp = new RegExp(CoreNameArr[key], "i");
+                        if (getUserAgent.match(moblieRegExp) == CoreNameArr[key]) {
+
+                            if ($("#currentDevice").length != 0) {
+                                $("#currentDevice").attr("value", "wap");
+                            }
+                            //for (var key = 0; key < dominArr.length; key++) {
+                            //    if (dominUrl == dominArr[key]) {
+
+                            //        location.href = dominArr[key] + 'mobile';
+                            //        break;
+                            //    } else if (dominUrl.href.indexOf(dominArr[key]) > -1) {
+
+                            //        location.href = link;
+                            //    }
+                            //}
+                            break;
+                        }
+                    }
+                }
+            }
+        </script>
+
+
+
+        <!--音乐插件-->
+        <!-- <script type='text/javascript' src="js/hermit.js?ver=2.3." ></script> -->
+        <script type='text/javascript' src="js/superfish.js" tppabs="http://zuiacg.cc/js/superfish.js"></script>
+        <script type='text/javascript' src="js/sc.js" tppabs="http://zuiacg.cc/js/sc.js"></script>
+        <script src="js/custom.js" tppabs="http://zuiacg.cc/js/custom.js"></script>
+        <script src="js/event.js" tppabs="http://zuiacg.cc/js/event.js"></script>
+        <!--Swiper-->
+        <script src="js/swiper/swiper.jquery.min.js" tppabs="http://zuiacg.cc/js/swiper/swiper.jquery.min.js"></script>
+        <!--Vue-->
+        <script src="js/Vue/vue.min.js" tppabs="http://zuiacg.cc/js/Vue/vue.min.js"></script>
+
+        <script src="../cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js" tppabs="http://cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                effect: 'cube',
+                autoplay: 4000,
+                loop: true,
+                grabCursor: false,
+                cube: {
+                    shadow: true,
+                    slideShadows: true,
+                    shadowOffset: 20,
+                    shadowScale: 0.94
+                },
+                preventClicks: false
+                    //,
+                    //onClick: function (swiper) {
+                    //    var obj = swiper;
+                    //    alert('你点了Swiper');
+                    //}
+            });
+        </script>
     </div>
 
-    <!-- ===================================
-        HEADER
-    ==================================== -->
-    <header>
-        <!-- Navigation Menu start-->
-        <nav class="navbar blackor-main-menu" role="navigation">
-            <div class="container">
 
-                <!-- Navbar Toggle -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <!-- Logo -->
-                    <a class="navbar-brand" href="index.html"><img class="logo" id="logo" src="images/logo.png" alt="Page" width="100" height="100"></a>
-
-                </div>
-                <!-- Navbar Toggle End -->
-				
-				<!--player-->
-
-				<!--player end-->
-				
-                <!-- navbar-collapse start-->
-                <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
-                    <ul class="nav navbar-nav blackor-menu-wrapper">
-                        <li class="active">
-                                <a href="#blackor-slider">回顶</a>
-                        </li>
-                        <li>
-                            <a href="#about">作死大法好</a>
-                        </li>
-                        <li>
-                                <a href="#featured-works">naive</a>
-                        </li>
-                        <li>
-                            <a href="#offer">杂乱的东西</a>
-                        </li>
-
-                        <li>
-                            <a href="#testimonial">你看不见这个标签</a>
-                        </li>
-                        <li>
-                                <a href="#contact">Contact ME</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- navbar-collapse end-->
-
-            </div>
-        </nav>
-        <!-- Navigation Menu end-->
-    </header>
-
-
-    <!-- ===================================
-        MAIN SLIDER
-    ==================================== -->
-    <section class="slider-pro blackor-slider" id="blackor-slider">
-        <div class="sp-slides">
-
-            <!-- Slides -->
-            <div class="sp-slide blackor-main-slides">
-                <div class="blackor-img-overlay"></div>
-
-                <img class="sp-image" src="images/slider/1.jpg" alt="Slider 1"/>
-                <h1 class="sp-layer blackor-slider-text-big"
-                data-position="center" data-show-transition="right" data-hide-transition="right" data-show-delay="300" data-hide-delay="60">
-                <span class="blackor-color-contras">老司机的休憩之所</span> 欢迎你！
-                </h1>
-
-
-            </div>
-            <!-- Slides End -->
-
-            <!-- Slides -->
-            <div class="sp-slide blackor-main-slides">
-            <div class="blackor-img-overlay"></div>
-                <img class="sp-image" src="images/slider/2.jpg" alt="Slider 2"/>
-
-                <h1 class="sp-layer blackor-slider-text-big"
-                 data-position="center" data-show-transition="right" data-hide-transition="right" data-show-delay="300" data-hide-delay="60">
-                    <span class="blackor-color-contras">老司机的休憩之所</span> 欢迎你！
-                </h1>
-
-
-            </div>
-            <!-- Slides End -->
-
-            <!-- Slides -->
-            <div class="sp-slide blackor-main-slides">
-                <div class="blackor-img-overlay"></div>
-
-                <img class="sp-image" src="images/slider/3.jpg" alt="Slider 3"/>
-
-                <h1 class="sp-layer blackor-slider-text-big"
-                data-position="center" data-show-transition="right" data-hide-transition="right" data-show-delay="300" data-hide-delay="60">
-                 <span class="blackor-color-contras">老司机的休憩之所</span> 欢迎你！
-                </h1>
-
-
-
-            </div>
-            <!-- Slides End -->
-
-
-
-        </div>
-    </section>
-
-<section class="blackor-custom-sec blackor-section-wrapper background-one">
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-
-                <div>
-					<div class = "video">
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=210 src="//music.163.com/outchain/player?type=0&id=638826481&auto=1&height=430"></iframe>
-				</div>
-
-				
-				
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 blackor-custom-sec-text wow bounceInRight">
-
-                                 
-
-                    <p>这是我神奇的歌单 大家凑合着听吧……</p>
-
-
-
-                </div>
-			
-            </div>
-		
-		</div>
-    </section>
-    <!-- ===================================
-        SCREENSHOOT
-    ==================================== -->
-    <section class="blackor-custom-sec blackor-section-wrapper background-one">
-        <div class="container">
-            <div class="row">
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blackor-section-header wow fadeInDown">
-                    <h1><span class="blackor-color-contras">你好，司机</span></h1>
-                    <div class="blackor-line"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">这里是司机之友副驾驶为大家准备的世外庭院 更多功能亟待开发！</p>
-                </div>
-                <!-- Section Header End -->
-
-                <div class="col-md-6 col-sm-6 col-xs-12 blackor-custom-sec-img wow bounceInLeft">
-					<div class = "video">
-
-					<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=9301179&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
-					
-				</div>
-
-				<p></p>
-				<p>上面是我最新的作品之类的 还是请司机们多多投硬币……</p>
-				<a href="">点我诶诶诶查看更多作品！</a>
-				
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 blackor-custom-sec-text wow bounceInRight">
-
-                                 <p>我会把一些最新的作死成果挂在这个网站，也希望大家都能贯彻落实社会主义核心价值观……一起来玩吧……</p>
-
-                    <p>想了想 也可以放一些车在这里 都是司机嘛……老司机当然会明白一些突兀的代码是干什么的</p>
-
-                    <p>新司机也不要<s> 黄 </s>慌，<s>（刚刚打错了应该没人看见……）</s>一些我觉得好玩的教程新闻什么的也都会挂起来……</p>
-
-                    <p>诶嘿嘿……</p>
-
-
-
-                </div>
-			
-            </div>
-		
-		</div>
-    </section>
-
-
-    <!-- ===================================
-        ABOUT SECTION
-    ==================================== -->
-    <section id="about" class="blackor-section-wrapper background-two">
-        <div class="container">
-            <div class="row">
-
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blackor-section-header wow fadeInDown">
-                    <h1><span class="blackor-color-contras">唉……</span></h1>
-                    <div class="blackor-line"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">你们毕竟还too young 明白这个意思不，我告诉你们我是身经百战啊，见得多了，满外网哪个地区我没有去过？你们要知道，神社那伙逗逼，那比你们不知道司机到哪里去了！我都跟他们谈笑风生……</p>
-                </div>
-                <!-- Section Header End -->
-
-                <!-- What We Do -->
-                <div class="blackor-what-we-do">
-
-                    <div class="col-md-3 col-sm-3 col-xs-12 blackor-blurb-round-icon wow bounceInLeft">
-                        <div class="blackor-icon">
-                            <i class="fa fa-html5"></i>
-                        </div>
-                        <h3>原创作死频道</h3>
-                    </div>
-
-                    <div class="col-md-3 col-sm-3 col-xs-12 blackor-blurb-round-icon wow bounceIn" data-wow-delay=".5s">
-                        <div class="blackor-icon">
-                            <i class="fa fa-css3"></i>
-                        </div>
-                        <h3>教程<s>「作死的方法」</s></h3>
-                    </div>
-
-                    <div class="col-md-3 col-sm-3 col-xs-12 blackor-blurb-round-icon wow bounceIn" data-wow-delay=".5s">
-                        <div class="blackor-icon">
-                            <i class="fa fa-laptop"></i>
-                        </div>
-                        <h3>这里什么都没有</h3>
-                        <h3><s>「谁信啊！！！」</s></h3>
-                    </div>
-
-                    <div class="col-md-3 col-sm-3 col-xs-12 blackor-blurb-round-icon wow bounceInRight" data-wow-delay=".5s">
-                        <div class="blackor-icon">
-                            <i class="fa fa-support"></i>
-                        </div>
-                        <h3>那么这里写啥呢………………</h3>
-                    </div>
-
-                </div>
-                <!-- What We Do End -->
-
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- ===================================
-        FEATURED WORK SECTION
-    ==================================== -->
-    <section id="featured-works" class="blackor-section-wrapper background-one">
-        <!-- Container -->
-        <div class="container">
-            <div class="row">
-
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blackor-section-header wow fadeInDown">
-                    <h1><span class="blackor-color-contras">一些有趣的东西</span></h1>
-                    <div class="blackor-line"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">但是跑来跑去问的问题啊 就too simple，sometimes naive 懂了没有？识得唔识得啊？ </p>
-                </div>
-                <!-- Section Header End -->
-
-            </div>
-        </div>
-        <!-- Container End -->
-
-        <!-- Featured Works Slider -->
-        <div class="container-fluid">
-            <div class="row-fluid">
-
-                <div class="blackor-portfolio-work-slider-section wow fadeIn" data-wow-duration="2s">
-                    <div id="featured-work-slider" class="owl-carousel blackor-portfolio-works-slider">
-
-                        <!-- Work 1 -->
-                        <div class="blackor-portfolio-work-item">
-
-                            <img src="images/featured-work/1.png" alt="Feature Work 1">
-                            <div class="blackor-port-work-details">
-                                <ul class="blackor-work-meta">
-                                    <li class="blackor-lighbox"><a href="images/featured-work/1.png" class="blackor-featured-work-img"><i class="fa fa-cog"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- Work 1 End -->
-
-                        <!-- Work 2 -->
-                        <div class="blackor-portfolio-work-item">
-
-                            <img src="images/featured-work/2.png" alt="Feature Work 2">
-                            <div class="blackor-port-work-details">
-                                <ul class="blackor-work-meta">
-                                    <li class="blackor-lighbox"><a href="images/featured-work/2.png" class="blackor-featured-work-img"><i class="fa fa-cog"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- Work 2 End -->
-
-                        <!-- Work 3 -->
-                        <div class="blackor-portfolio-work-item">
-
-                            <img src="images/featured-work/3.png" alt="Feature Work 3">
-                            <div class="blackor-port-work-details">
-                                <ul class="blackor-work-meta">
-                                    <li class="blackor-lighbox"><a href="images/featured-work/3.png" class="blackor-featured-work-img"><i class="fa fa-cog"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- Work 3 End -->
-
-                        <!-- Work 4 -->
-                        <div class="blackor-portfolio-work-item">
-
-                            <img src="images/featured-work/4.png" alt="Feature Work 4">
-                            <div class="blackor-port-work-details">
-                                <ul class="blackor-work-meta">
-                                    <li class="blackor-lighbox"><a href="images/featured-work/4.png" class="blackor-featured-work-img"><i class="fa fa-cog"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- Work 4 End -->
-
-                        <!-- Work 5 -->
-                        <div class="blackor-portfolio-work-item">
-
-                            <img src="images/featured-work/5.png" alt="Feature Work 5">
-                            <div class="blackor-port-work-details">
-                                <ul class="blackor-work-meta">
-                                    <li class="blackor-lighbox"><a href="images/featured-work/5.png" class="blackor-featured-work-img"><i class="fa fa-cog"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- Work 5 End -->
-
-                        <!-- Work 6 -->
-                        <div class="blackor-portfolio-work-item">
-
-                            <img src="images/featured-work/6.png" alt="Feature Work 6">
-                            <div class="blackor-port-work-details">
-                                <ul class="blackor-work-meta">
-                                    <li class="blackor-lighbox"><a href="images/featured-work/6.png" class="blackor-featured-work-img"><i class="fa fa-cog"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- Work 6 End -->
-
-                        <!-- Work 7 -->
-                        <div class="blackor-portfolio-work-item">
-
-                            <img src="images/featured-work/7.png" alt="Feature Work 7">
-                            <div class="blackor-port-work-details">
-                                <ul class="blackor-work-meta">
-                                    <li class="blackor-lighbox"><a href="images/featured-work/7.png" class="blackor-featured-work-img"><i class="fa fa-cog"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- Work 7 End -->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Featured Works Slider -->
-
-    </section>
-
-
-    <!-- ===================================
-        OFFER SECTION
-    ==================================== -->
-    <section id="offer" class="blackor-section-wrapper blackor-offer-section  background-two">
-        <div class="container">
-            <div class="row">
-
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blackor-section-header wow fadeInDown">
-                    <h1><span class="blackor-color-contras">库——源码／可共享设计稿／<s>本子「才没有」</s></span></h1>
-                    <div class="blackor-line"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">哦不 不是针对你 我是说 在座的各位 都是垃圾……</p>
-                </div>
-                <!-- Section Header End -->
-
-                <!-- Services -->
-                <div class="blackor-service-wrapper">
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow bounceInLeft">
-
-                        <div class="blackor-blurb-icon-only">
-                            <i class="fa fa-html5"></i>
-                            <h3>源码库</h3>
-                            <p>“不准抄我的码子！”</p>
-                            <p>-那叫借鉴……</p>
-                            <p>-滚！</p>
-                        </div>
-
-
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s">
-
-                        <div class="blackor-blurb-icon-only">
-                        <i class="fa fa-css3"></i>
-                            <h3>灵感中心</h3>
-                            <p>别看了里边除了想法就是想法</p>
-                            <p>都还没做出来呢</p>
-                            <p>……</p>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-4 col-xs-12 wow bounceInRight">
-
-
-                        <div class="blackor-blurb-icon-only">
-                            <i class="fa fa-jsfiddle"></i>
-                           <h3>我想不到能写什么了……</h3>
-                           <p>呵呵哒</p>
-                            <p>哦……</p>
-                            <p>……</p>
-                        </div>
-                    </div>
-                    <!-- Services End -->
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ===================================
-        TESTIMONIALS SECTION
-    ==================================== -->
-    <section id="testimonial"  class="blackor-testimonial-section background-two">
-
-        <div class="blackor-parallax-overlay"></div>
-
-        <div class="blackor-testimonial-wrapper wow bounceIn">
-            <div class="container">
-                <div class="row">
-
-                    <i class="icon-bubbles comment-icon"></i>
-
-                    <!-- Testimonial Slider -->
-                    <div id="blackor-testimonial" class="owl-carousel blackor-testimonial">
-
-                        <!-- Slides -->
-
-                        <div class="blackor-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <div class="blackor-member-img-wrapper">
-                                <img src="images/testimonial/1.png" alt="Team Member 2">
-                            </div>
-                            <p>“看不见我……”</p>
-                            <p class="blackor-client-info">“(｡･ω･｡)”</p>
-                        </div>
-                        <!-- Slides End -->
-
-                        <!-- Slides -->
-                        <div class="blackor-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <div class="blackor-member-img-wrapper">
-                                <img src="images/testimonial/2.png" alt="Team Member 2">
-                            </div>
-                            <p>“看不见我……”</p>
-                            <p class="blackor-client-info">“(´･ω･`)”</p>
-                        </div>
-                        <!-- Slides End -->
-
-                        <!-- Slides -->
-                        <div class="blackor-testimonial-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                            <div class="blackor-member-img-wrapper">
-                                <img src="images/testimonial/3.png" alt="Team Member 2">
-                            </div>
-                            <p>“看不见我……”</p>
-                            <p class="blackor-client-info">“(*≧ω≦)”</p>
-                        </div>
-                        <!-- Slides End -->
-
-                    </div>
-                    <!-- Testimonial Slider End -->
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-   <!-- ===================================
-        CONTACT SECTION
-    ==================================== -->
-    <section id="contact" class="blackor-section-wrapper blackor-contact-section background-one" data-stellar-background-ratio="0.5">
-    <div class="blackor-parallax-overlay"></div>
-        <div class="container">
-            <div class="row">
-
-                <!-- Section Header -->
-                <div class="col-md-12 col-sm-12 col-xs-12 blackor-section-header wow fadeInDown blackor-section-header-parallax">
-                    <h1><span class="blackor-color-contras">CONTACT ME</span></h1>
-                    <div class="blackor-line"></div>
-                    <p class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">后端不会写或者等我学会了之后下面的框框才有用若想联系我的话直接发我邮箱哈 zjp11679841@163.com……</p>
-                </div>
-                <!-- Section Header End -->
-
-                <div class="blackor-contact-details">
-
-                    <!-- Contact Form -->
-                    <div class="col-md-12 col-sm-12 col-xs-12 blackor-contact-form wow bounceInRight">
-                                                <div id="contact-result"></div>
-                                                <div id="contact-form">
-                            <div class="blackor-input-name blackor-input-fields">
-
-                                <input type="text" name="name" placeholder="NAME" id="name" required>
-                            </div>
-
-                            <div class="blackor-input-email blackor-input-fields">
-
-                                <input type="email" name="email" placeholder="EMAIL" id="email" required>
-                            </div>
-
-                            <div class="blackor-input-message blackor-input-fields">
-
-                                <textarea name="message" placeholder="MESSAGE" id="message" cols="30" rows="10"></textarea>
-                            </div>
-
-                            <input type="submit" value="SEND MESSAGE" id="submit-btn">
-                        </div>
-                    </div>
-                    <!-- Contact Form End -->moecopilot.github.com POWERED By 副驾驶-moecopilot  敬奉！
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ===================================
-        FOOTER SECTION
-    ==================================== -->
-    <footer class="background-two">
-        <div class="container">
-            <div class="row">
-                <div class="blackor-footer-content">
-
-                    <ul class="blackor-footer-social-info">
-                        <li>
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </li>
-
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-        <!-- ===================================
-        SCRIPTS
-    ==================================== -->
-    <script src="js/modernizr.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.sliderPro.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.easypiechart.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/custom.js"></script>
 </body>
+
 </html>
